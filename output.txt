@@ -1,0 +1,9 @@
+why are my output box of ipynb file not showing the full response of the model prediction?
+
+Hi @sarah_khan,
+
+This is a known issue with Jupyter Notebooks. The output box has a fixed height and width, so if the output is too large, it will be cut off.
+
+One workaround is to use the `display` function from the IPython library to display the output in a separate window. Here's an example:
+```python
+from IPython.display import display
